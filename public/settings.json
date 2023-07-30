@@ -6,7 +6,7 @@
     "user_avatar": "legat.png",
     "amount_gen": 180,
     "max_context": 4000,
-    "main_api": "poe",
+    "main_api": "openai",
     "world_info": {
         "globalSelect": []
     },
@@ -97,7 +97,12 @@
         "shadow_color": "rgba(0, 0, 0, 0.5)",
         "waifuMode": false,
         "movingUI": true,
-        "movingUIState": {},
+        "movingUIState": {
+            "sheld": {
+                "width": 800,
+                "height": 680
+            }
+        },
         "noShadows": true,
         "theme": "Default (Dark) 1.7.1",
         "auto_swipe": false,
@@ -399,7 +404,8 @@
         "1687810212337": [],
         "1687904015015": [],
         "1687904249694": [],
-        "1688334303517": []
+        "1688334303517": [],
+        "1689289197297": []
     },
     "temp_novel": 1.11,
     "rep_pen_novel": 1.11,
@@ -473,7 +479,7 @@
     "claude_model": "claude-instant-v1",
     "windowai_model": "",
     "jailbreak_system": false,
-    "reverse_proxy": "",
+    "reverse_proxy": "http://localhost:3000/v2/driver/sage",
     "legacy_streaming": false,
     "chat_completion_source": "openai",
     "max_context_unlocked": false,
